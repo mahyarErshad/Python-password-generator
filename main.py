@@ -23,4 +23,5 @@ for symbol in range(1, nr_symbols + 1):
 for number in range(1, nr_numbers + 1):
     password += random.choice(numbers)
 random.shuffle(password)
+password = ''.join(password)
 print(password)
